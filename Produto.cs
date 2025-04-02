@@ -2,9 +2,10 @@ class Produto
 {
  public string descricao;
  public double valor;
- public void Cliente(string descricao, string nome)
+
+ public void criaProduto(string descricao, double valor)
  {
-  this.cpf = cpf;
-  this.nome = nome;
+  this.descricao = descricao;
+  this.valor = valor;
  }
 }

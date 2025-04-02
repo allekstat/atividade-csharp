@@ -1,4 +1,4 @@
-class Fornecedor : Pessoa
+public class Fornecedor : Pessoa
 {
  public string cnpj;
  public string razaosocial;
